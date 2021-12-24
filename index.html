@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <!-- <link rel="stylesheet" href="assets/css/docs.theme.min.css"> -->
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+
+    <link rel="stylesheet" href="./index.css">
+    <title>CLICKR</title>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-md navbar-light m-0 fixed-top d-block default header"
+        data-navbar-on-scroll="data-navbar-on-scroll">
+        <logo class="header_logo navbar-brand">
+            <img class="header_img" src="./img/logo.png" />
+            <span class="header_clink">CLICK<span class="header_r">R</span></span>
+        </logo>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse menu" id="navbarSupportedContent" style="width:100%">
+            <ul class="navbar-nav ">
+                <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item "><a href="#" class="nav-link">How it works</a></li>
+                <li class="nav-item "><a href="#" class="nav-link">Services</a></li>
+                <li class="nav-item "><a href="#" class="nav-link">Packages</a></li>
+                <li class="nav-item "><a href="#" class="nav-link">FAQs</a></li>
+            </ul>
+            <button class="nav-link">Get started</button>
+        </div>
+    </header>
+    <div class="containerl container">
+        <div id="#home" class="home swiper-container">
+            <div class="home_review">
+                <div class="home_review_top">
+                    <h1>San Francisco Based
+                        <br />
+                        Product Photography Services
+                    </h1>
+                    <p>Get high-quality aesthetic photographs of your valuable products within few days</p>
+                    <a href="#" class="home_button"> <i class="fa fa-camera"></i> Book a photoshoot</a>
+                </div>
+
+                <div class="home-demo">
+
+                    <div class="large-12 columns">
+                        <div class="owl-carousel" style="width: 100%">
+                            <div class="item">
+                                <img class="carousel-inner item" src="./img/product-1.png " alt="home_img">
+                            </div>
+                            <div class="item">
+                                <img class="carousel-inner" src="./img/product-2.png" alt="home_img">
+                            </div>
+                            <div class="item">
+                                <img class="carousel-inner" src="./img/product-3.png" alt="home_img">
+                            </div>
+                            <div class="item">
+                                <img class="carousel-inner" src="./img/product-4.png" alt="home_img">
+                            </div>
+                            <div class="item">
+                                <img class="carousel-inner" src="./img/product-5.png" alt="home_img">
+                            </div>
+                            <div class="item">
+                                <img class="carousel-inner" src="./img/product-3.png" alt="home_img">
+                            </div>
+                            <div class="item">
+                                <img class="carousel-inner" src="./img/product-1.png" alt="home_img">
+                            </div>
+                            <div class="item">
+                                <img class="carousel-inner" src="./img/product-2.png" alt="home_img">
+                            </div>
+                            <div class="item">
+                                <img class="carousel-inner" src="./img/product-3.png" alt="home_img">
+                            </div>
+                            <div class="item">
+                                <img class="carousel-inner" src="./img/product-4.png" alt="home_img">
+                            </div>
+                            <div class="item">
+                                <img class="carousel-inner" src="./img/product-5.png" alt="home_img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var owl = $('.owl-carousel');
+                owl.owlCarousel({
+                    margin: 10,
+                    loop: true,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 3
+                        }
+                    }
+                })
+            </script>
+        </div>
+        <div class="home_brand " id="carouselExampleControls" data-ride="carousel">
+            <span>
+                Commercial product photography agency
+                <br />
+                praised by over 5,000 brands.
+            </span>
+            <div class="brand_img">
+                <img src="./img/facebook.png" alt="brand_img">
+                <img src="./img/freelancer.png" alt="brand_img">
+                <img src="./img/mailbluster.png" alt="brand_img">
+                <img src="./img/netflix.png" alt="brand_img">
+                <img src="./img/theme-wagon.png" alt="brand_img">
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <div id="#howit" class="howit container">
+        <div class="howit_happens ">
+            <p>How It happens</p>
+            <h1>You deliver-We Click</h1>
+            <div class="howit_happens_info carousel slide row">
+                <div class="howit_happens_info_1 m-0 col-12 col-ms-4 col-md-4 col-lg-4">
+                    <h1>1</h1>
+                    <b>Inform us about your product</b>
+                    <p>Introduce your product, select through the pricing plan and let us know if you have any
+                        references in mind</p>
+                </div>
+                <div class="howit_happens_info_2 m-0 col-12 col-ms-4 col-md-4 col-lg-4">
+                    <h1>2</h1>
+                    <b>Deliver your products</b>
+                    <p>Deliver the sujects at our doorstep, we will click perfect shots in no time and make it
+                        online ready</p>
+                </div>
+                <div class="howit_happens_info_3 m-0 col-12 col-ms-4 col-md-4 col-lg-4">
+                    <h1>3</h1>
+                    <b>Reviewing the shots</b>
+                    <p>After the photoshoot, you will get to review the shots and let us know if there any
+                        modification needed.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <hr />
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active ">
+                    <div class="item_block">
+                        <div class="howit_quotes_p ">
+                            <p class="">
+                                When it comes to both reliability and quality, <span>ClickR</span> is undoubtly one of
+                                best
+                                services out there. Team was fast and responsible. 5 stars for them!
+                            </p>
+                            <div class="howit_quotes_author">
+                                <b>Ainara Vergara,</b>
+                                <span>Designer</span>
+                            </div>
+                        </div>
+                        <div class="howit_quotes_img">
+                            <img src="./img/testimonial-image-1.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="item">
+                    <div class="item_block ">
+                        <div class="howit_quotes_p ">
+                            <p>
+                                When it comes to both reliability and quality, <span>ClickR</span> is undoubtly one of
+                                best
+                                services out there. Team was fast and responsible. 5 stars for them!
+                            </p>
+                            <div class="howit_quotes_author">
+                                <b>Niek Bove,</b>
+                                <span>Senior Developer</span>
+                            </div>
+                        </div>
+                        <div class="howit_quotes_img">
+                            <img src="./img/testimonial-image-2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item ">
+                    <div class="item_block">
+                        <div class="howit_quotes_p  ">
+                            <p>
+                                When it comes to both reliability and quality, <span>ClickR</span> is undoubtly one of
+                                best
+                                services out there. Team was fast and responsible. 5 stars for them!
+                            </p>
+                            <div class="howit_quotes_author" style="display: flex; ">
+                                <b>Ainara Vergara,</b>
+                                <span>Designer, co-Founder at Nirvana Tech</span>
+                            </div>
+                        </div>
+                        <div class="howit_quotes_img">
+                            <img src="./img/testimonial-image-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                <span style="color: orangered; z-index: 1000;"><i class="fa fa-chevron-left"></i></span>
+                <span class="sr-only" style="color: orangered;">Previous</span>
+            </a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                <span style="color: orangered;"><i class="fa fa-chevron-right"></i></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="howit ">
+        <div class="howit_Packages container row">
+            <div class=" col-12 col-ms-12 col-md-4 col-lg-4 ">
+                <div id="howit_Packages_block_1" class="howit_Packages_block">
+                    <div class="ms-4 ">
+                        <p>Basic</p>
+                        <span>$9</span>
+                        <ul>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>High quality images</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>Single Revision</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>10 Products per order</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>Not providing softcopy</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>Free return shipment</li>
+                        </ul>
+                    </div>
+                    <div class="my-5 text-center">
+                        <button>Choose plan</button>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="col-12 col-ms-12 col-md-4 col-lg-4 ">
+                <div id="howit_Packages_block_2" class="howit_Packages_block">
+                    <div class="ms-4">
+                        <p>Avarage</p>
+                        <span>$29</span>
+                        <ul>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>High quality images</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>5 Revisions</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>25 Products per order</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>Provides softcopy & PSD</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>Free return shipment</li>
+                        </ul>
+                    </div>
+                    <div class="my-5 text-center">
+                        <button>Choose plan</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" col-12 col-ms-12 col-md-4 col-lg-4 ">
+                <div id="howit_Packages_block_3" class="howit_Packages_block">
+                    <div class="ms-4">
+                        <p>Professional</p>
+                        <span>$19</span>
+                        <ul>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>High quality images</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>3 Revisions</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>50 Products per order</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>Provides softcopy</li>
+                            <li><i class="fa fa-check-circle text-700 me-2"></i>Free return shipment</li>
+                        </ul>
+                    </div>
+                    <div class="my-5 text-center">
+                        <button>Choose plan</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container howit_photos ">
+        <div class="title">
+            <h1>Over 1,00,000 Photos Shot</h1>
+        </div>
+        <div class="howit_photos_option row">
+            <ul>
+                <li><a href="" class="active ">food</a></li>
+                <li><a href="" class="">Shoes</a></li>
+                <li><a href="" class="">Watchs</a></li>
+                <li><a href="" class="">Cosmetis</a></li>
+                <li><a href="" class=" ">Phone</a></li>
+                <li><a href="" class=" ">Camera</a></li>
+            </ul>
+        </div>
+        <div class="howit_photos_image row">
+            <img src="./img/food-1.png" alt="">
+            <img src="./img/food-2.png" alt="">
+            <img src="./img/food-3.png" alt="">
+            <img src="./img/food-4.png" alt="">
+            <img src="./img/food-5.png" alt="">
+            <img src="./img/food-6.png" alt="">
+        </div>
+        <button class="howit_photos_btn">
+            View portfolio <i class="fa fa-arrow-right"></i>
+        </button>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div id="#services" class="services ">
+            <h1 id="h1">Our Services</h1>
+            <div class="services_review" id="services_review_1">
+                <div class="servicesa">
+                    <div class="services_img"><img src="./img/services-shoe-blue.png" alt=""></div>
+                </div>
+                <div class="services_contain">
+                    <h1>Photo Preview</h1>
+                    <p>Invest on your commercial product photography on a visual story created by our creative team.
+                        Each click at the most reasonable price going to pay you more.</p>
+                    <div class="services_contain_link">
+                        <a href="">View portfolio <i class="fa fa-arrow-right"></i></a>
+                        <a href="">Pricing <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="services_review" id="services_review_2">
+
+                <div class="services_contain">
+                    <h1>Product Revision</h1>
+                    <p>It's not just another edge correcting service. A team trusted by more than 5,000 brands will work
+                        at
+                        your product with care and creativity.
+                    </p>
+                    <div class="services_contain_link">
+                        <a href="">View portfolio <i class="fa fa-arrow-right"></i></a>
+                        <a href="">Pricing <i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="servicesa">
+                    <div class="services_img"><img src="./img/services-shoe-green.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="#faqs" class="container-fluid faqs">
+            <h1 class="h1">FAQ</h1>
+            <div class="faqs_contain">
+                <div class="faqs_contain_question" id="faqs_contain_question_1">
+                    <h1>What's the turnabout time?</h1>
+                    <p>Generally the turnabout time depends on the scheme of pricing you are selecting. The tentative
+                        turnaround time for orders less than 100 images is up to 12 business days from the time we
+                        receive
+                        your products and payment. Reach our support to get better insight.</p>
+                </div>
+                <div class="faqs_contain_question" id="faqs_contain_question_2">
+                    <h1>Can I provide references?</h1>
+                    <p>Absolutely! If clients provide any sort of refernces, that is highly appreciated by our creative
+                        team.</p>
+                </div>
+                <div class="faqs_contain_question" id="faqs_contain_question_3">
+                    <h1>What are the delivery options?</h1>
+                    <p>Deliver your products by using the labeling with the help of any courier service or just drop it
+                        at
+                        our door step at the Biancca Studio, San Francisco.</p>
+                </div>
+                <div class="faqs_contain_question" id="faqs_contain_question_4">
+                    <h1>Can I be present during the shoot?</h1>
+                    <p>Sorry, we currently do not support that under any pricing scheme. Usually any other person than
+                        the
+                        creative team is not allowed to attend the phototshoot. Otherwise, it has effects on others and
+                        time
+                        & effort get wasted as we conduct the process on a fixed plan. We hope that people would
+                        understand
+                        and respect our creative process.</p>
+                </div>
+                <div class="faqs_contain_question" id="faqs_contain_question_5">
+                    <h1>Will my products be returned?</h1>
+                    <p>That's totally up to you. If you want the product back, then you have to include that option in
+                        registration time. Else, it will be stored in our storage and you can pick that whenever you
+                        wish.
+                    </p>
+                </div>
+                <div class="faqs_contain_question" id="faqs_contain_question_6">
+                    <h1>Do you support revisions?</h1>
+                    <p>Yes, based on the pricing plan, you will have several revision options. If you want to bring more
+                        than 90% change, then you will have to pay further.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="#commercial" class="container-fluid commercial ">
+        <h1>Get your commercial product
+            <br>
+            images today that matter
+        </h1>
+
+        <button>
+            Get Started Now <i class="fa fa-check"></i>
+        </button>
+
+    </div>
+
+    <footer>
+        <div class="container-fluid footer row">
+            <div class="col-6 col-lg-2 col-md-4 col-sm-4  footer_menu">
+                <b>Why Us</b>
+                <ul>
+                    <li>Channel</li>
+                    <li>Engagement</li>
+                    <li>Scale</li>
+                    <li>Watch Demo</li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-2 col-md-4 col-sm-4  footer_menu">
+                <b>Product</b>
+                <ul>
+                    <li>Features</li>
+                    <li>Integrations</li>
+                    <li>Enterprise</li>
+                    <li>Solutions</li>
+                </ul>
+            </div>
+            <div class=" col-6 col-lg-2 col-md-4 col-sm-4  footer_menu">
+                <b>Resources</b>
+                <ul>
+                    <li>Partners</li>
+                    <li>Developers</li>
+                    <li>Developers</li>
+                    <li>Blogs</li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-2 col-md-4 col-sm-4  footer_menu">
+                <b>Company</b>
+                <ul>
+                    <li>About Us</li>
+                    <li>Leadership</li>
+                    <li>Investor Relations</li>
+                    <li>News</li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-2 col-md-4 col-sm-4  footer_menu">
+                <b>Pricing</b>
+                <ul>
+                    <li>Plans</li>
+                    <li>Paid vs. Free</li>
+                </ul>
+            </div>
+            <div class="col-6 col-lg-2 col-md-4 col-sm-4  footer_menu">
+                <b>Contact</b>
+                <ul>
+                    <li>+214556905345</li>
+                    <li>example@email.com</li>
+                    <li>567, Kansas, San Francisco, USA</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_social">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <hr>
+        <div class="container-fluid footer_coppyright">
+            <div class="footer_coppyright_left">
+                <p>All rights Reserved © Your Company, 2021</p>
+            </div>
+            <div class="footer_coppyright-right">
+                <p>Made with <i class="fa fa-heart" style="color: crimson;"></i> by ThemeWagon</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        var menu = $('header'),
+            pos = menu.offset();
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > pos.top + menu.height() && menu.hasClass('default')) {
+
+                menu.fadeOut('fast', function () {
+                    $(this).removeClass('default').addClass('fixed').fadeIn('fast');
+                });
+            } else if ($(this).scrollTop() <= pos.top && menu.hasClass('fixed')) {
+                menu.fadeOut('fast', function () {
+                    $(this).removeClass('fixed').addClass('default').fadeIn('fast');
+                });
+            }
+        });
+    });
+
+</script>
+
+<!-- <script src="assets/vendors/highlight.js"></script>
+<script src="assets/js/app.js"></script> -->
+<script src=”https://code.jquery.com/jquery-3.5.1.slim.min.js”
+    integrity=”sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj”
+    crossorigin=”anonymous”></script>
+<script src=”https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js”
+    integrity=”sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo”
+    crossorigin=”anonymous”></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+
+</html>
